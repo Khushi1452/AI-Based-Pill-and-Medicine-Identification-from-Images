@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-10-22T19:40:12Z",
+  "total_test_cases": 9,
+  "top1_accuracy_percent": 100.0,
+  "top3_recall_percent": 100.0,
+  "abstention_accuracy_percent": 100.0,
+  "cases": [
+    {
+      "case_id": "TC-01",
+      "name": "Allegra 120mg Tablet",
+      "top_candidate": "Allegra 120mg Tablet",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-02",
+      "name": "Aziderm 20% Cream",
+      "top_candidate": "Aziderm 20% Cream 15gm",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-03",
+      "name": "Glycomet GP 1 Tablet",
+      "top_candidate": "Glycomet GP 1",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-04",
+      "name": "Foracort 200 Rotacap",
+      "top_candidate": "Foracort 200 Rotacap",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-05",
+      "name": "Paracip 650 Tablet",
+      "top_candidate": "Paracip 650",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-06",
+      "name": "Allegra 180mg Tablet (Strength Distinction)",
+      "top_candidate": "Allegra 180mg Tablet 10'S",
+      "score": 0.99,
+      "passed": true
+    },
+    {
+      "case_id": "TC-07",
+      "name": "Optical Confusion: 0 vs O (Paracip 65Omg)",
+      "top_candidate": "Paracip 650",
+      "score": 0.782,
+      "passed": true
+    },
+    {
+      "case_id": "TC-08",
+      "name": "Unknown Brand (Safe Abstention)",
+      "top_candidate": "999",
+      "score": 0.373,
+      "passed": true
+    },
+    {
+      "case_id": "TC-09",
+      "name": "Unreadable Glare / Unmarked Foil (Rejection)",
+      "top_candidate": "Glare 2mg Tablet 10'S",
+      "score": 0.263,
+      "passed": true
+    }
+  ]
+}

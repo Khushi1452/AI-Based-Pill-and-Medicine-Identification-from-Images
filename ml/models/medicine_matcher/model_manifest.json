@@ -1,0 +1,8 @@
+{
+  "model_name": "IndianMedicineMatcherTFIDF",
+  "version": "1.0.0",
+  "total_records": 20485,
+  "features_count": 60000,
+  "framework": "scikit-learn",
+  "saved_at": "2026-10-22T19:40:12Z"
+}

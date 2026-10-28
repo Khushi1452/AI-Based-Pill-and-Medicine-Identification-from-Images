@@ -1,0 +1,6 @@
+{
+  "name": "Aushadhi Drishti — Indian Medicine Vision & Safety Assistant",
+  "description": "AI-powered Indian pharmaceutical packaging identification, dataset verification, and patient safety education in Hindi (Devanagari) and English.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

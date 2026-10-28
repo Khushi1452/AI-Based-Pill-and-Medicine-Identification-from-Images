@@ -1,0 +1,3 @@
+"""
+Mediscan AI - Services Package
+"""

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "cal-1",
+    "brandPattern": "Allegra 120mg Tablet",
+    "dosageForm": "Tablet",
+    "strength": "120 mg",
+    "activeSalts": [
+      "Fexofenadine Hydrochloride (120 mg)"
+    ],
+    "therapeuticClass": "Antihistamine & Anti-Allergic (एलर्जी और सर्दी-जुकाम रोधी दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "एलर्जी के लक्षणों जैसे छींक आना, नाक बहना, आँखों में पानी और खुजली (Allergic Rhinitis / Urticaria) से राहत में उपयोगी।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-2",
+    "brandPattern": "Aziderm 20% Cream",
+    "dosageForm": "Cream",
+    "strength": "20% w/w",
+    "activeSalts": [
+      "Azelaic Acid (20% w/w)"
+    ],
+    "therapeuticClass": "Anti-Acne & Dermatological Preparation (मुँहासे और त्वचा उपचार दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "मुँहासे (Acne vulgaris) और त्वचा के दाग-धब्बे कम करने के लिए केवल बाहरी त्वचा पर लगाने की दवा।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-3",
+    "brandPattern": "Glycomet GP 1",
+    "dosageForm": "Tablet",
+    "strength": "1 mg / 500 mg SR",
+    "activeSalts": [
+      "Glimepiride (1 mg)",
+      "Metformin Hydrochloride SR (500 mg)"
+    ],
+    "therapeuticClass": "Anti-Diabetic & Blood Glucose Regulator (मधुमेह / ब्लड शुगर नियंत्रण दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "टाइप 2 डायबिटीज मेलिटस (Type 2 Diabetes Mellitus) में रक्त शर्करा नियंत्रित करने की नियंत्रित दवा; भोजन छोड़ने से हाइपोग्लाइसीमिया हो सकता है।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-4",
+    "brandPattern": "Paracip 650",
+    "dosageForm": "Tablet",
+    "strength": "650 mg",
+    "activeSalts": [
+      "Paracetamol (650 mg)"
+    ],
+    "therapeuticClass": "Analgesic & Antipyretic (दर्द और बुखार निवारक)",
+    "isPrescriptionRequired": false,
+    "hindiNote": "बुखार कम करने (Antipyretic) और हल्के से मध्यम दर्द से राहत (Analgesic) के लिए; लिवर की सुरक्षा हेतु निर्धारित मात्रा से अधिक न लें।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-5",
+    "brandPattern": "Foracort 200 Rotacap",
+    "dosageForm": "Rotacap",
+    "strength": "6 mcg / 200 mcg",
+    "activeSalts": [
+      "Formoterol Fumarate (6 mcg)",
+      "Budesonide (200 mcg)"
+    ],
+    "therapeuticClass": "Bronchodilator & Anti-Asthmatic Respiratory Care (दमा / अस्थमा और श्वसन मार्ग की दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "अस्थमा और सीओपीडी (COPD) के नियमित रखरखाव उपचार के लिए; रोटाकैप को कभी निगलें नहीं, केवल रोटाहेलर से इनहेल करें।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-6",
+    "brandPattern": "Udiliv 300",
+    "dosageForm": "Tablet",
+    "strength": "300 mg",
+    "activeSalts": [
+      "Ursodeoxycholic Acid (300 mg)"
+    ],
+    "therapeuticClass": "Hepatoprotective & Gallstone Dissolution Agent (लिवर और पित्ताशय की पथरी के उपचार की दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "पित्ताशय की कोलेस्ट्रॉल पथरी (Gallstones) और लिवर विकारों (Cholestatic Liver Disease) के उपचार में उपयोगी।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  },
+  {
+    "id": "cal-7",
+    "brandPattern": "Ecosprin 75",
+    "dosageForm": "Tablet",
+    "strength": "75 mg",
+    "activeSalts": [
+      "Aspirin / Acetylsalicylic Acid (75 mg)"
+    ],
+    "therapeuticClass": "Antiplatelet, Anticoagulant & Thrombolytic (रक्त पतला करने और थक्का रोकने वाली दवा)",
+    "isPrescriptionRequired": true,
+    "hindiNote": "रक्त के थक्के बनने से रोकने तथा हार्ट अटैक और स्ट्रोक के जोखिम को कम करने में (Antiplatelet)।",
+    "createdAt": "2026-10-20T00:00:00Z"
+  }
+]

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Builds & Outputs
+build/
+dist/
+coverage/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local Databases & Image Storage (Data Safety)
+*.db
+*.sqlite
+*.sqlite*
+data/*.db
+data/*.sqlite*
+data/stored_images/
+data/mediscan.db*
+data/feedback/
+data/pending_review/
+
+# OS & Logs
+.DS_Store
+.DS_Store
+*.log

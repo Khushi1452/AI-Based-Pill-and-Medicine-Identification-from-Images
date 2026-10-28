@@ -1,0 +1,93 @@
+================================================================================
+                    KHUSHI MEDICINE AI PROJECT - HOW TO RUN
+================================================================================
+
+This project consists of two linked services:
+1. Python Local ML & Multi-Pass OCR Microservice (Runs on Port 5002)
+2. Node.js Express Backend & Vite React Frontend (Runs on Port 5001)
+
+--------------------------------------------------------------------------------
+1. QUICK START (2 TERMINALS)
+--------------------------------------------------------------------------------
+
+Open two separate terminal windows or tabs in this project directory:
+
+--- TERMINAL 1 (Python Local AI & OCR Service) ---
+Run:
+    npm run dev:ml
+
+(Direct command alternative:
+    .venv/bin/uvicorn ml.service.api:app --host 127.0.0.1 --port 5002 --reload
+)
+
+You should see:
+    [LocalInference] Successfully loaded trained ML matcher artifacts.
+    INFO: Uvicorn running on http://127.0.0.1:5002
+
+
+--- TERMINAL 2 (Web App & Express Server) ---
+Run:
+    npm run dev
+
+You should see:
+    Server listening on http://0.0.0.0:5001
+
+
+--------------------------------------------------------------------------------
+2. OPEN THE WEBSITE
+--------------------------------------------------------------------------------
+
+Open your web browser and navigate to:
+    http://localhost:5001
+
+
+--------------------------------------------------------------------------------
+3. PREREQUISITES & ENVIRONMENT
+--------------------------------------------------------------------------------
+
+- Node.js (v18 or higher)
+- Python 3.10 or 3.11 with virtual environment installed at .venv/
+- Tesseract OCR (installed via Homebrew: brew install tesseract)
+- Environment Variables in .env:
+    GEMINI_API_KEY=your_gemini_api_key
+    LOCAL_ML_SERVICE_URL=http://127.0.0.1:5002/api/ml/analyze
+
+
+--------------------------------------------------------------------------------
+4. USEFUL DIAGNOSTIC COMMANDS
+--------------------------------------------------------------------------------
+
+- Check Python AI Service Health:
+    curl http://127.0.0.1:5002/health
+
+- Run All 14 Automated ML & Hybrid System Tests:
+    npm run test:ml
+
+- Run Full End-to-End Accuracy Benchmark:
+    curl -X POST http://127.0.0.1:5001/api/benchmark/run
+
+- Clear Analysis Cache:
+    curl -X POST http://127.0.0.1:5001/api/diagnostics/cache/clear
+
+- Build Frontend for Production:
+    npm run build
+
+
+--------------------------------------------------------------------------------
+5. TROUBLESHOOTING
+--------------------------------------------------------------------------------
+
+- Port 5001 already in use:
+    lsof -i :5001
+    kill -9 <PID>
+
+- Port 5002 already in use:
+    lsof -i :5002
+    kill -9 <PID>
+
+- Reinstall Python dependencies:
+    .venv/bin/pip install -r ml/requirements.txt
+
+- Reinstall Node dependencies:
+    npm install
+================================================================================
